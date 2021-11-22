@@ -31,6 +31,7 @@
     "express": "^4.17.1",
     "pg": "^8.7.1",
     "pg-hstore": "^2.3.4",
+    "psql": "^0.0.1",
     "sequelize": "*",
     "sequelize-cli": "^6.3.0"
   },
