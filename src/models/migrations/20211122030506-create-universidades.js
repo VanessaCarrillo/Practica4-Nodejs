@@ -20,9 +20,6 @@ module.exports = {
       añoinicio: {
         type: Sequelize.STRING
       },
-      fechacreacion: {
-        type: Sequelize.DATE
-      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

@@ -5,7 +5,7 @@ const chance = require('chance').Chance()
 const faker = require('faker')
 
 const createSeeds = async () => {
-    const universidadesCount = 50
+    const universidadesCount = 3
 
     chance.mixin({
         universidad: function () {
@@ -14,7 +14,6 @@ const createSeeds = async () => {
                 ciudad: chance.sentence({ words: 4}),
                 dirección: chance.sentence({ words: 10}),
                 añoinicio: chance.sentence({ words: 1}),
-                fechacreacion: chance.date(),
                 createdAt: chance.date(),
                 updatedAt: chance.date()
             }
@@ -29,7 +28,6 @@ const createSeeds = async () => {
             ciudad: faker.lorem.sentence(),
             dirección: faker.address.streetAddress(),
             añoinicio: faker.date.weekday(),
-            fechacreacion: faker.date.recent(),
             createdAt: faker.date.recent(2),
             updatedAt: faker.date.recent(2)
         })

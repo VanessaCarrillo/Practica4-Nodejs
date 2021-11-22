@@ -17,8 +17,7 @@ module.exports = (sequelize, DataTypes) => {
     nombre: DataTypes.STRING,
     ciudad: DataTypes.STRING,
     dirección: DataTypes.STRING,
-    añoinicio: DataTypes.STRING,
-    fechacreacion: DataTypes.DATE
+    añoinicio: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'universidades',
