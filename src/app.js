@@ -4,7 +4,7 @@ const express = require('express')
 const app = express()
 const PORT = process.env.PORT
 
-const universidadRouter = require('../routes/universidades')
+const universidadRouter = require('./routes/universidades')
 
 app.use('/universidades', universidadRouter)
 
