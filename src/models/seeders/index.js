@@ -34,6 +34,7 @@ const createSeeds = async () => {
             updatedAt: faker.date.recent(2)
         })
     }
+
 }
 
 module.exports = createSeeds
