@@ -1,21 +1,21 @@
 {
   "development": {
     "username": "uni",
-    "password": null,
+    "password": "",
     "database": "uni_development",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
     "username": "uni",
-    "password": null,
+    "password": "",
     "database": "uni_test",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
     "username": "uni",
-    "password": null,
+    "password": "",
     "database": "uni_production",
     "host": "127.0.0.1",
     "dialect": "postgres"
