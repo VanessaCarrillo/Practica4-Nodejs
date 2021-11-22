@@ -2,9 +2,8 @@
 
 const express = require('express')
 const router = express.Router()
+const universidadesController = require('../controllers/universidades')
 
-router.get('/', (req, res, next) => {
-    res.send('You have hit GET /universidades endpoint')
-})
+router.get('/', universidadesController.getAllUniversidades)
 
 module.exports = router
