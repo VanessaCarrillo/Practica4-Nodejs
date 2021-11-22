@@ -1,22 +1,22 @@
 {
   "development": {
-    "username": "usuario1",
-    "password": "temporal",
-    "database": "universidades_development",
+    "username": "uni",
+    "password": null,
+    "database": "uni_development",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
-    "username": "usuario1",
-    "password": "temporal",
-    "database": "universidades_test",
+    "username": "uni",
+    "password": null,
+    "database": "uni_test",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-    "username": "usuario1",
-    "password": "temporal",
-    "database": "universidades_production",
+    "username": "uni",
+    "password": null,
+    "database": "uni_production",
     "host": "127.0.0.1",
     "dialect": "postgres"
   }
