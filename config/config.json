@@ -2,21 +2,21 @@
   "development": {
     "username": "usuario1",
     "password": null,
-    "database": "database_development",
+    "database": "universidades_development",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
     "username": "usuario1",
     "password": null,
-    "database": "database_test",
+    "database": "universidades_test",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
     "username": "usuario1",
     "password": null,
-    "database": "database_production",
+    "database": "universidades_production",
     "host": "127.0.0.1",
     "dialect": "postgres"
   }
