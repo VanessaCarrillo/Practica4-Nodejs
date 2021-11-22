@@ -1,36 +1,30 @@
 'use strict';
 
 module.exports = {
-  up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('universidades',
+  up: (queryInterface, Sequelize) => {
+    return queryInterface.bulkInsert(
+      'universidades',
+      [
         {
-          id: {
-            allowNull:false,
-            autoIncrement: true,
-            primaryKey: true,
-            type: Sequelize.INTEGER
-          },
-          nombre: {
-            type: Sequelize.STRING
-          },
-          ciudad: {
-            type: Sequelize.STRING
-          },
-          dirección: {
-            type: Sequelize.STRING
-          },
-          añoinicio: {
-            type: Sequelize.STRING
-          },
-          createdAt: {
-            allowNull: false,
-            type: Sequelize.DATE
-          }
-        }
-      );
+          nombre:'Universidad Autónoma de Chihuahua',
+          ciudad: 'Chihuahua',
+          dirección: 'Av. Universidad y Av. Pascual Orozco',
+          añoinicio: '1835',
+          createdAt: new Date()
+        },
+        {
+          nombre:'Universidad Tecnologica de Chihuahua',
+          ciudad: 'Chihuahua',
+          dirección: 'Av. Montes Americanos',
+          añoinicio: '2000',
+          createdAt: new Date()
+        },
+      ],
+      {}
+    )
   },
 
-  down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('usuarios');
-  }
+  down: (queryInterface, Sequelize) => {
+    return queryInterface.bulkDelete('usuarios', null, {})
+  },
 };
