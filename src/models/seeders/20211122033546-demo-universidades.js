@@ -10,14 +10,16 @@ module.exports = {
           ciudad: 'Chihuahua',
           dirección: 'Av. Universidad y Av. Pascual Orozco',
           añoinicio: '1835',
-          createdAt: new Date()
+          createdAt: new Date(), 
+          updatedAt: new Date()
         },
         {
           nombre:'Universidad Tecnologica de Chihuahua',
           ciudad: 'Chihuahua',
           dirección: 'Av. Montes Americanos',
           añoinicio: '2000',
-          createdAt: new Date()
+          createdAt: new Date(),
+          updatedAt: new Date()
         },
       ],
       {}
