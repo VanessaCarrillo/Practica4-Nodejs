@@ -41,6 +41,7 @@
     "pg-hstore": "^2.3.4",
     "psql": "^0.0.1",
     "sequelize": "*",
+    "morgan": "^1.10.0",
     "sequelize-cli": "^6.3.0"
   },
   "devDependencies": {
