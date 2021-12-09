@@ -37,12 +37,13 @@
     "express": "^4.17.1",
     "faker": "^5.5.3",
     "mongoose-morgan": "^1.0.17",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.15",
     "pg": "^8.7.1",
     "pg-hstore": "^2.3.4",
     "psql": "^0.0.1",
+    "request": "^2.16.6",
     "sequelize": "*",
-    "morgan": "^1.10.0",
     "sequelize-cli": "^6.3.0"
   },
   "devDependencies": {
