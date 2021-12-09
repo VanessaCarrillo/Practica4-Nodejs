@@ -3,21 +3,21 @@
     "username": "postgres",
     "password": "123456789",
     "database": "uni_development",
-    "host": "192.168.4.176",
+    "host": "0.0.0.0",
     "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
     "password": "123456789",
     "database": "uni_test",
-    "host": "192.168.4.176",
+    "host": "0.0.0.0",
     "dialect": "postgres"
   },
   "production": {
     "username": "postgres",
     "password": "123456789",
     "database": "uni_production",
-    "host": "192.168.4.176",
+    "host": "0.0.0.0",
     "dialect": "postgres"
   }
 }
