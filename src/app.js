@@ -2,10 +2,12 @@ require('dotenv').config()
 const express = require('express')
 
 const db = require('./models')
+const logger = require('morgan')
 const createSeeds = require('./models/seeders')
 const app = express()
 const PORT = process.env.PORT || 5000
 
+app.use(logger('dev'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 const universidadRouter = require('./routes/universidades')
