@@ -1,11 +1,11 @@
 require('dotenv').config()
 const express = require('express')
-const logger = require('morgan')
+
 const db = require('./models')
 const createSeeds = require('./models/seeders')
 const app = express()
 const PORT = process.env.PORT
-app.use(logger('dev'))
+
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 const universidadRouter = require('./routes/universidades')
